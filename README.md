@@ -36,7 +36,7 @@ No arquivo application.properties possui todas as informações de conexão ao B
     <strong>PUT /book:</strong> A rota alterar nome, autor, isbn do livro;
   </li>
   <li>
-    <strong>GET /book/search:</strong> A rota retorna dados de livros que contenham o nome parecido com o parâmetro repassado na rota.
+    <strong>GET /book/search:</strong> A rota retorna dados de livros que contenham o nome parecido com o parâmetro repassado na rota e isValid tem que ser true.
   </li>
     <li>
     <strong>PATCH /book/valid/id:</strong> A rota somente alterar o valid(disponível ou indisponível) do livro para true or false.
